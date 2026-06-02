@@ -1,0 +1,42 @@
+CRITICAL - 2026-06-01 17:38:19 --> ErrorException: Undefined array key "hobi"
+[Method: GET, Route: home/profile]
+in APPPATH\Views\Profile.php on line 47.
+ 1 APPPATH\Views\Profile.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "hobi"', 'C:\\laragon\\www\\Modul 6\\PRAK601\\app\\Views\\Profile.php', 47)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\Modul 6\\PRAK601\\app\\Views\\Profile.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1254): CodeIgniter\View\View->render('Profile', [], true)
+ 5 APPPATH\Controllers\Home.php(23): view('Profile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Home->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-06-01 17:38:25 --> ErrorException: Undefined array key "hobi"
+[Method: GET, Route: home/profile]
+in APPPATH\Views\Profile.php on line 47.
+ 1 APPPATH\Views\Profile.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "hobi"', 'C:\\laragon\\www\\Modul 6\\PRAK601\\app\\Views\\Profile.php', 47)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\Modul 6\\PRAK601\\app\\Views\\Profile.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1254): CodeIgniter\View\View->render('Profile', [], true)
+ 5 APPPATH\Controllers\Home.php(23): view('Profile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Home->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-06-01 17:38:25 --> ErrorException: Undefined array key "hobi"
+[Method: GET, Route: home/profile]
+in APPPATH\Views\Profile.php on line 47.
+ 1 APPPATH\Views\Profile.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "hobi"', 'C:\\laragon\\www\\Modul 6\\PRAK601\\app\\Views\\Profile.php', 47)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\Modul 6\\PRAK601\\app\\Views\\Profile.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1254): CodeIgniter\View\View->render('Profile', [], true)
+ 5 APPPATH\Controllers\Home.php(23): view('Profile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Home->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
